@@ -23,7 +23,7 @@ header {
   width: 100%;
   position: fixed;
   z-index: 10;
-  background: rgb(10, 140, 226);
+  background: salmon;
 }
 header #logo {
   position: absolute;
@@ -39,7 +39,7 @@ header #logo img{
 header .menu {
   float: right;
   list-style: none;
-#  margin-top: 2px;
+  #margin-top: 2px;
   margin-right: 5%;
 }
 header .menu li {
@@ -49,6 +49,7 @@ header .menu li {
 }
 header .menu li a {
   color: initial;
+  font-family: cursive;
   text-decoration: initial;
   color: white;
 }
@@ -132,8 +133,8 @@ figure h2.titulo {
   background: lightblue;
 }
 .coluna img {
-  height: 300px;
-  width: 100%;
+  height: fit-content;
+  width: 40%;
 }
 .coluna iframe { 
   top: 0;
@@ -208,4 +209,3 @@ footer .container {
   .menu {
     visibility: hidden;
   }
-   
