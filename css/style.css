@@ -28,8 +28,6 @@ header {
 header #logo {
   position: absolute;
   top: 10px;
-  #float: left;
-  #height: 40px;
   width: 170px;
   margin-left: 5%;
 }
@@ -39,7 +37,6 @@ header #logo img{
 header .menu {
   float: right;
   list-style: none;
-  #margin-top: 2px;
   margin-right: 5%;
 }
 header .menu li {
@@ -208,4 +205,4 @@ footer .container {
   }
   .menu {
     visibility: hidden;
-  }
+}}
