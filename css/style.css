@@ -120,7 +120,7 @@ figure h2.titulo {
   padding: 0 2%;
 }
 .coluna.dois {
-  width: 40%;
+  width: 50%;
 }
 .coluna .icone {
   border-radius: 50%;
@@ -138,7 +138,7 @@ figure h2.titulo {
 }
 .coluna img {
   height: 300px;
-  width: 80%;
+  width: 300px;
 }
 .coluna iframe { 
   top: 0;
