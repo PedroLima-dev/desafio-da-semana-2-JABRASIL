@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $("#nav-toggle").click(function(e){
         e.preventDefault();
-      $('.header-collapse').addClass('active');
+      $('.header-collapse').toggleClass('active');
+      $('#nav-toggle').toggleClass('active');
     });
   });
