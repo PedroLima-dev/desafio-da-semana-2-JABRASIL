@@ -199,14 +199,14 @@ footer .container {
 @media all and (max-width: 768px) {
   .coluna, .coluna.quatro, .coluna.tres, .coluna.dois {
     display: block;
-    width: 80%;
+    width: 90%;
     padding: 0;
     margin: 10px auto;
     float: none;
   }
   header #logo {
     position: relative;
-    width: 100%;
+    width: 15%;
     margin-left: 0px;
     text-align: center;
   }
@@ -219,7 +219,7 @@ footer .container {
     -webkit-border-bottom-left-radius: 8px;
     position: fixed;
     display: block;
-    background: salmon;
+    background: red;
     padding: 15px;
     top: 0;
     right: 0;
@@ -228,7 +228,7 @@ footer .container {
 
   #nav-toggle span{
     border-radius: 1px;
-    height: 15px;
+    height: 5px;
     width: 50px;
     display: block;
     background: #fff;
@@ -288,6 +288,14 @@ footer .container {
     font-weight: 600;
     font-size: 1.375rem;
   }
+
+  figure .imagem_fundo {
+    background: url(../img/capa-mobile.png); 
+    background-size: cover;
+    height: 100%;
+    padding: 180px;
+  }
+
   figure h1.titulo {
     font-size: 15px;
     letter-spacing: 3px;
@@ -299,5 +307,10 @@ footer .container {
     letter-spacing: 3px;
     margin: 15% 20% 0% 20%;
     padding-bottom: 30px;
+  }
+
+  .content{
+    max-width: 1280px;
+    width: 90%;
   }
 }
